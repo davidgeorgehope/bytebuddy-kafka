@@ -18,7 +18,7 @@ public class GetParameters {
 
             properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "pkc-ep9mm.us-east-2.aws.confluent.cloud:9092");
             properties.setProperty("security.protocol", "SASL_SSL");
-            properties.setProperty("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule   required username=\"BRETYWGF4OQKQQIE\"   password=\"Wz0FpCjjaWPmn4RjvS2a1CLjilhOjEjDLjTVOnSijD1EFxhZZiDTvvAHaASWEHyL\";");
+            properties.setProperty("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule  ";");
             properties.setProperty("ssl.endpoint.identification.algorithm", "https");
             properties.setProperty("sasl.mechanism", "PLAIN");
 
